@@ -1,23 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Map from './Components/Map';
+import Dashboard from './Components/Dashboard';
+import Orignal from './Components/Orignal';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+<script src="https://kit.fontawesome.com/1999aa8c37.js" crossorigin="anonymous"></script>
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+       <Dashboard/>
+      
     </div>
   );
 }

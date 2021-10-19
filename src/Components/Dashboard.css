@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+    font-family: "Lato", sans-serif;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .profile-card {
+    background-color: #fff;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    border-radius: 3px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 2rem;
+    max-height: 290px;
+  }
+  
+  .profile-card-heading {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    background-color: #fff;
+    font-size: 3rem;
+  }
+  
+  .profile-sf-id {
+    max-width: fit-content;
+    margin-left: 1rem;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  hr {
+    width: 85%;
+    margin-left: 1rem;
+  }
+  
+  .profile-card-college {
+    margin-left: 1rem;
+    align-items: center;
+    width: 150px;
+    padding-top: 0.5rem;
+    background-color: #fff;
+    color: #777;
+    font-size: small;
+    padding-bottom: 1rem;
+  }
+  
+  .profile-card-text {
+    display: flex;
+    background-color: #fff;
+    margin-top: 1rem;
+  }
+  
+  .profile-card-text-title {
+    padding-right: 1rem;
+    margin-left: 1rem;
+    color: #777;
+    background-color: #fff;
+  }
+  
+  .profile-card-text-content {
+    background-color: #fff;
+  }
+  
+  .certificate-card {
+    background-color: #fff;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    border-radius: 3px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 0 2rem 2rem 2rem;
+  }
+  
+  .certificate-card-heading {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    background-color: #fff;
+    font-size: 3rem;
+  }
+  
+  .certificate-div {
+    margin-top: 1rem;
+    background-color: #fff;
+    margin-left: 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 90%;
+  }
+  
+  .certificate-div-eventname {
+    background-color: #fff;
+    margin-left: 1rem;
+  }
+  
+  .certificate-div-text {
+    background-color: #fff;
+    margin-left: 1rem;
+    color: #777;
+    margin-top: 0.5rem;
+  }
+  
+  .events-registered-card {
+    background-color: #fff;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    border-radius: 3px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 2rem;
+  }
+  
+  .events-registered-card-heading {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    background-color: #fff;
+    font-size: 3rem;
+  }
+  
+  .event-div-group,
+  .event-div-solo {
+    margin-top: 1rem;
+    background-color: #fff;
+    margin-left: 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 90%;
+  }
+  
+  .event-div-group-eventname,
+  .event-div-solo-eventname {
+    background-color: #fff;
+    margin-left: 1rem;
+  }
+  
+  .event-div-group-text,
+  .event-div-solo-text {
+    background-color: #fff;
+    margin-left: 1rem;
+    color: #777;
+    margin-top: 0.5rem;
+  }
+  
+  ul {
+    background-color: #fff;
+    margin-left: 1rem;
+  }
+  
+  li {
+    background-color: #fff;
+    margin-left: 1rem;
+  }
+  
+  .event-heading-line {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+  }
+  
+  .event-link {
+    background-color: #fff;
+    margin-left: 1rem;
+    color: #777;
+  }
+  
+  .event-deregister-button {
+    background-color: #fff;
+    margin-left: 1rem;
+    margin-top: 10rem;
+  }
+  .event-div-group-text {
+      float: left;
+  }
+
+
+
+
+
+
+
+
+  
